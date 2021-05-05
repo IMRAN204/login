@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../images/sea.jpg);
+	background-size:100%;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	widows: 420px;
+	height: 420px;
+	background: #4a86e8;
+	color: #00ffff;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 40px;
+}
+
+
+.imran{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 30%
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+
+.loginbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: red;
+	color: yellow;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: yellow;
+	color: red;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: #00ffff;
+}
+
+.loginbox a:hover{
+	color: yellow;
+}
